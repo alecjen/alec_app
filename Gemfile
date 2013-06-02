@@ -3,10 +3,11 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.0.rc1'
 gem 'bootstrap-sass', '2.3.1.0'
+gem 'bcrypt-ruby', '3.0.1'
 
-group :test, :development do
+group :development, :test do
   gem 'sqlite3', '1.3.7'
-  gem 'rspec-rails', '~> 2.4'
+  gem 'rspec-rails', '2.13.1'
 end
 
 group :test do
