@@ -34,6 +34,7 @@ class UsersController < ApplicationController
   	if @user.save
       sign_in @user
       flash[:success] = "Welcome to myAPP!"
+      @user.follow!(User.first)
   		redirect_to @user
   	else
   		render 'new'
