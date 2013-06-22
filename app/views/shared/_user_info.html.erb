@@ -5,7 +5,7 @@
   <%= current_user.name %>
 </h1>
 <span>
-  <%= link_to "View Profile", current_user %>
+  <grayify><%= link_to "View Profile", current_user %></grayify>
 </span>
 <span>
   <%= pluralize(current_user.microposts.count, "post") %>
