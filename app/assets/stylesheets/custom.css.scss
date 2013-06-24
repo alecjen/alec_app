@@ -59,8 +59,14 @@ h2 {
 
 p {
 	font-size: 1.1em;
+	color: #585858;
 	line-height: 1.7em;
 }
+
+a {
+	color: #585858;
+}
+
 
 /* header */
 
@@ -233,11 +239,17 @@ input {
 	}
 }
 
+.user {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
 .content {
 	display: block;
 }
 .timestamp {
 	color: $grayLight;
+	font-style: italic;
 }
 .gravatar {
 	float: left;
@@ -247,11 +259,5 @@ aside {
 	textarea {
 		height: 100px;
 		margin-bottom: 5px;
-	}
-}
-
-span {
-	grayify {
-	color: #a0a0a0;
 	}
 }
