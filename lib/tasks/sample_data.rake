@@ -27,6 +27,7 @@ def make_users
   #end
 end
 
+=begin
 def make_microposts(user)
   administrator.microposts.create!(content: "Lorem ipsum")
 end
@@ -39,3 +40,4 @@ def make_relationships
   followed_users.each { |followed| user.follow!(followed) }
   followers.each      { |follower| follower.follow!(user) }
 end
+=end
