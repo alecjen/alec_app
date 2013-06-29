@@ -3,7 +3,7 @@
   
 	  <span class="user">
 	    <%= link_to feed_item.user.name, feed_item.user %>
-	    <small>   @</small><%= link_to feed_item.user.username, feed_item.user %>
+	    <small>   @<%= feed_item.user.username %></small>
 	  </span>
 
 	  <span class="content"><%= feed_item.content %></span>
