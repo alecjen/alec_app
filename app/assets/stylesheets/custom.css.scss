@@ -6517,8 +6517,6 @@ html {
 }
 
 body {
-	padding-top: 60px;
-	background-color: #f8f8f8;
   padding-top: 60px;
 }
 
@@ -6584,7 +6582,7 @@ a {
   font-weight: bold;
   line-height: 1;
   &:hover {
-    color: #c8c8c8;
+    color: #fff;
     text-decoration: none;
   }
 }
