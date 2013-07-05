@@ -6559,6 +6559,7 @@ h2 {
 
 p {
   font-size: 1.1em;
+  font-weight: bold;
   color: #003399;
   line-height: 1.7em;
 }
@@ -6718,7 +6719,17 @@ input {
   list-style: none;
   margin: 0;
   li {
-    color: #000066;
+    a {
+      color: #0066ff;
+      letter-spacing: -1px;
+      font-size: 18px;
+    }
+    small {
+      font-size: 14px;
+      color: #a8a8a8;
+      font-style: italic;
+      font-weight: normal;
+    }
     overflow: auto;
     padding: 10px 0;
     border-top: 1px solid $grayLighter;
@@ -6743,10 +6754,12 @@ input {
 .user {
   font-weight: bold;
   font-size: 1.1em;
-  color: #000066;
+  a {
+    color: #0066ff;
+  }
   small {
     font-size: 14px;
-    color: #b8b8b8;
+    color: #a8a8a8;
     font-style: italic;
     font-weight: normal;
   }
