@@ -2,10 +2,10 @@
   <%= gravatar_for current_user, size: 52 %>
 </a>
 <h1>
-  <%= current_user.name %>
+  <%= link_to current_user.name, current_user %>
 </h1>
 <span>
-  <grayify><%= link_to "View Profile", current_user %></grayify>
+  <%= link_to "Edit Profile", edit_user_path(current_user) %>
 </span>
 <span>
   <%= pluralize(current_user.microposts.count, "post") %>
